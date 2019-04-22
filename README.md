@@ -1,4 +1,4 @@
-# IDS6145(SimTech 2019) - Research Plan (Template)
+# IDS6145(SimTech 2019) - Research Plan
 (remember all text between brackets to be removed in proposal and final, like template above)
 
 > * Group Name: (be creative!)
