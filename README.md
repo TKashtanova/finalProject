@@ -2,7 +2,7 @@
 (remember all text between brackets to be removed in proposal and final, like template above)
 
 > * Group Name: (be creative!)
-> * Group participants names: (alphabetically sorted by last name)
+> * Group participants names: Huang Yifan and Kashtanova Tatiana
 > * Project Title: (can be changed later)
 (Abstract here - basically your pitch with some modification - but short overview)
 (TEASER IMAGE HERE - should wow me to read your work)
