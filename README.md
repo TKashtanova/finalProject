@@ -43,7 +43,7 @@ An artificial neural network is a machine learning algorithm the idea of which t
 
 ![Neuron](images/Neuron.PNG)
 
-![Neuron_f](images/Neuron_f.PNG)
+![Neuron_function](images/Neuron_function.PNG)
 
 A layer is a group of neurons that process inputs through their activation functions and give outputs. An example of a neural network is presented on the figure below [2]. Every node of one layer is connected to all nodes of the next layer. The information flows from left to right.
 
