@@ -45,6 +45,41 @@ An artificial neural network is a machine learning algorithm the idea of which t
 
 ![Neuron_f](images/Neuron_f.PNG)
 
+A layer is a group of neurons that process inputs through their activation functions and give outputs. An example of a neural network is presented on the figure below [2]. Every node of one layer is connected to all nodes of the next layer. The information flows from left to right.
+
+![NN](images/NN.PNG)
+
+The number of hidden layers is different in various neural networks. Hidden layers can have different activation functions depending on a research problem and the type of data being used [1].
+
+
+***Convolutional neural network (CNN)***
+
+A convolutional neural network is a variation of artificial neural networks the scheme of which is presented on the figure below [1].
+
+![CNN](images/CNN.PNG)
+
+A convolution layer takes an input signal and multiplies it with the kernel (a filter) to produce an output. There are usually hundreds or thousands of such convolutional layers that apply different filters and combine the results. 
+
+Pooling layers are usually used after convolutional layers and subsample their input. Thus, for example, a max pooling function takes the maximum value of the input matrix or selected region while a min pooling function takes the minimum value of the input matrix or selected region (see an example on the figure below [3]). 
+
+![Max](images/Max.PNG)
+
+
+***Recurrent neural network (RNN)***
+
+A recurrent neural network is another type of artificial neural networks. They are called “recurrent” as they process new signals using the information from previous steps [1]. 
+
+![RNN](images/RNN.PNG)
+
+On the figure above, x(t) is an input at time step t, s(t) is a hidden state at the same time step. s(t) is calculated based on the previous hidden state s(t-1) and the input at the current time step utilizing one of activation functions. o(t) is an output at step t. The same process is applied to all inputs at each time step.
+
+References
+
+[1. Nigam, V. (2018). Understanding neural networks. From neuron to RNN, CNN, and Deep Learning.]( https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
+
+[2. Dertat, A. (2017). Applied Deep Learning – Part 1: artificial neural networks.] (https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6)
+
+[3. Britz, D. (2015). Understanding convolutional neural networks for NLP.]( http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
 
 
 
