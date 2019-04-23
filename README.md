@@ -37,6 +37,17 @@
 •	(Contribution 2)
 
 
+***Artificial neural networks (ANN)***
+
+An artificial neural network is a machine learning algorithm the idea of which takes its roots from the neural architecture of a human brain. The core components of a neural network are a neuron and a layer. A neuron is a node of a network that takes the weighted sum of its inputs (x1, x2, x3, … xn) and passes it through a mathematical function (the so-called activation function) to produce an output (y1). The output becomes the input of another neuron in the next layer. The most commonly used activation functions are step, sigmoid, tanh, and rectified linear unit [1]. The scheme of a node and its equation are presented on the figures below [2],  where n is the number of inputs for a node.
+
+![Neuron](images/Neuron.PNG)
+
+![Neuron_f](images/Neuron_f.PNG)
+
+
+
+
 
 ## The Model
 
