@@ -77,7 +77,7 @@ References
 
 [1. Nigam, V. (2018). Understanding neural networks. From neuron to RNN, CNN, and Deep Learning.]( https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
 
-[2. Dertat, A. (2017). Applied Deep Learning – Part 1: artificial neural networks.] (https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6)
+[2. Dertat, A. (2017). Applied Deep Learning – Part 1: artificial neural networks.](https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6)
 
 [3. Britz, D. (2015). Understanding convolutional neural networks for NLP.]( http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
 
