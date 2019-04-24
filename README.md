@@ -76,16 +76,6 @@ A recurrent neural network is another type of artificial neural networks. They a
 
 On the figure above, x(t) is an input at time step t, s(t) is a hidden state at the same time step. s(t) is calculated based on the previous hidden state s(t-1) and the input at the current time step utilizing one of activation functions. o(t) is an output at step t. The same process is applied to all inputs at each time step.
 
-References
-
-[1. Nigam, V. (2018). Understanding neural networks. From neuron to RNN, CNN, and Deep Learning.]( https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
-
-[2. Dertat, A. (2017). Applied Deep Learning – Part 1: artificial neural networks.](https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6)
-
-[3. Britz, D. (2015). Understanding convolutional neural networks for NLP.]( http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
-
-
-
 
 ## The Model
 
@@ -113,3 +103,10 @@ References
 
 ## References
 (Add the bibliographic references you intend to use)  (Code / Projects / blogs / websites / papers...)
+
+[1. Nigam, V. (2018). Understanding neural networks. From neuron to RNN, CNN, and Deep Learning.]( https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
+
+[2. Dertat, A. (2017). Applied Deep Learning – Part 1: artificial neural networks.](https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6)
+
+[3. Britz, D. (2015). Understanding convolutional neural networks for NLP.]( http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
+
