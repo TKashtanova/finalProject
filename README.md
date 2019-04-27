@@ -3,10 +3,14 @@
 
 > * Group Name: 123
 > * Group participants names: Yifan Huang and Tatiana Kashtanova
-> * Project Title: A new variant of artificial neural networks
+> * Project Title: Combination of CNN and RNN features for text classification
 
-(Abstract here - basically your pitch with some modification - but short overview)
-(TEASER IMAGE HERE - should wow me to read your work)
+
+***Abstract***
+
+![Text classification](images/TextClassification.png)
+
+
 
 ## General Introduction
 
