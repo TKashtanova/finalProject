@@ -81,9 +81,9 @@ Deep learning algorithms have shown good results in automatic text summarization
 
 [MonkeyLearn. (n.d.). Text classification. A comprehensive guide to classifying text with Machine Learning.](https://monkeylearn.com/text-classification/)
 
-[Alayba, A. M., Palade, V., England, M., & Iqbal, R. (2018). A Combined CNN and LSTM Model for Arabic Sentiment Analysis. Proc. International Cross-Domain Conference for Machine Learning and Knowledge Extraction. CD-MAKE 2018, Lecture Notes in Computer Science,11015, 179-191.](https://arxiv.org/abs/1807.02911)
+[Alayba, A. M., Palade, V., England, M., & Iqbal, R. (2018). A Combined CNN and LSTM Model for Arabic Sentiment Analysis. *Proc. International Cross-Domain Conference for Machine Learning and Knowledge Extraction. CD-MAKE 2018, Lecture Notes in Computer Science,11015*, 179-191.](https://arxiv.org/abs/1807.02911)
 
-[Wang, X., Jiang, W., & Luo, Z. (2016). Combination of Convolutional and Recurrent Neural Network for Sentiment Analysis of Short Texts. Proceedings of COLING 2016: The 26th International Conference on Computational Linguistics: Technical Papers. Osaka, Japan, 2428–2437.](https://www.aclweb.org/anthology/C16-1229) 
+[Wang, X., Jiang, W., & Luo, Z. (2016). Combination of Convolutional and Recurrent Neural Network for Sentiment Analysis of Short Texts. *Proceedings of COLING 2016: The 26th International Conference on Computational Linguistics: Technical Papers*. Osaka, Japan, 2428–2437.](https://www.aclweb.org/anthology/C16-1229) 
 
 [Nigam, V. (2018). Understanding neural networks. From neuron to RNN, CNN, and Deep Learning.](https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
 
