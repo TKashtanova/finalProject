@@ -1,19 +1,12 @@
 # IDS6145(SimTech 2019) - Research Plan
 
 
-> * Group Name: (be creative!) 123
+> * Group Name: 123
 > * Group participants names: Yifan Huang and Tatiana Kashtanova
 > * Project Title: A new variant of artificial neural networks
 
 (Abstract here - basically your pitch with some modification - but short overview)
 (TEASER IMAGE HERE - should wow me to read your work)
-
-
-
-(directions, - remove)
-* (this Readme should "evolve" over time as you add and edit it)
-* (once you are happy with it - copy it into the proposal directory, and remove the obvious sections that should be removed - Future work, etc)
-
 
 ## General Introduction
 
@@ -40,7 +33,7 @@
 
 ***Artificial neural networks (ANN)***
 
-An artificial neural network is a machine learning algorithm the idea of which takes its roots from the neural architecture of a human brain. The core components of a neural network are a neuron and a layer. A neuron is a node of a network that takes the weighted sum of its inputs (x1, x2, x3, … xn) and passes it through a mathematical function (the so-called activation function) to produce an output (y1). The output becomes the input of another neuron in the next layer. The most commonly used activation functions are step, sigmoid, tanh, and rectified linear unit [1]. The scheme of a node and its equation are presented on the figures below [2].  
+An artificial neural network is a machine learning algorithm the idea of which takes its roots from the neural architecture of a human brain. The core components of a neural network are a neuron and a layer. A neuron is a node of a network that takes the weighted sum of its inputs (x1, x2, x3, … xn) and passes it through a mathematical function (the so-called activation function) to produce an output (y1). The output becomes the input of another neuron in the next layer. The most commonly used activation functions are step, sigmoid, tanh, and rectified linear unit [1]. The scheme of a node and its equation are presented on the figure below [2].  
 
 ![Neuron](images/Neuron.PNG)
 
@@ -61,7 +54,7 @@ A convolutional neural network is a variation of artificial neural networks the 
 
 ![CNN](images/CNN.PNG)
 
-A convolution layer takes an input signal and multiplies it with the kernel (a filter) to produce an output. There are usually hundreds or thousands of such convolutional layers that apply different filters and combine the results. 
+A convolution layer takes an input signal and multiplies it with the kernel (a filter) to produce an output. There are usually many convolutional layers that apply different filters and combine the results. 
 
 Pooling layers are usually used after convolutional layers and subsample their input. Thus, for example, a max pooling function takes the maximum value of the input matrix or selected region while a min pooling function takes the minimum value of the input matrix or selected region [3]. 
 
