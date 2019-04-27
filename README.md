@@ -65,8 +65,10 @@ Deep learning algorithms have shown good results in automatic text summarization
 ## Research Methods
 (Cellular Automata, Agent-Based Model, Discrete Event Continuous Modeling...)(Python or Anylogic) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards) (Steps in the process)
 
-## (Other)
-(change the title and amount of headers as needed) (mention datasets you are going to use) (mention base code or examples you)
+## (Dataset)
+(mention datasets you are going to use) 
+
+## (Code)
 
 ## Discussion
 (final only - remove whole section for proposal Readme) (What would you have done differently) (What are the contributions summerize)(what is the big take away)(what did you learn)
