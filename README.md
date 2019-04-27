@@ -11,6 +11,7 @@
 ![Text classification](images/TextClassification.png)
 
 
+The image was taken on the Developers website.
 
 ## General Introduction
 
@@ -85,6 +86,8 @@ Deep learning algorithms have shown good results in automatic text summarization
 [Wang, X., Jiang, W., & Luo, Z. (2016). Combination of Convolutional and Recurrent Neural Network for Sentiment Analysis of Short Texts. Proceedings of COLING 2016: The 26th International Conference on Computational Linguistics: Technical Papers. Osaka, Japan, 2428–2437.](https://www.aclweb.org/anthology/C16-1229) 
 
 [Nigam, V. (2018). Understanding neural networks. From neuron to RNN, CNN, and Deep Learning.](https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
+
+[Developers. (n.d.) Build a Text Classification Program: An NLP Tutorial.](https://www.toptal.com/machine-learning/nlp-tutorial-text-classification)
 
 
 
