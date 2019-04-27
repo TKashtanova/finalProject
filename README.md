@@ -41,9 +41,9 @@
 ***Artificial neural networks (ANN)***
 
 An artificial neural network is a machine learning algorithm the idea of which takes its roots from the neural architecture of a human brain. The core components of a neural network are a neuron and a layer. A neuron is a node of a network that takes the weighted sum of its inputs (x1, x2, x3, … xn) and passes it through a mathematical function (the so-called activation function) to produce an output (y1). The output becomes the input of another neuron in the next layer. The most commonly used activation functions are step, sigmoid, tanh, and rectified linear unit [1]. The scheme of a node and its equation are presented on the figures below [2].  
+
 ![Neuron](images/Neuron.PNG)
 
-![Neuron_function](images/Neuron_function.PNG)
 
 Here, n is the number of inputs for a node, b is a bias which has the value 1 and is an input to all nodes. The bias allows to train a model even if all inputs are equal to 0.
 
@@ -63,9 +63,8 @@ A convolutional neural network is a variation of artificial neural networks the 
 
 A convolution layer takes an input signal and multiplies it with the kernel (a filter) to produce an output. There are usually hundreds or thousands of such convolutional layers that apply different filters and combine the results. 
 
-Pooling layers are usually used after convolutional layers and subsample their input. Thus, for example, a max pooling function takes the maximum value of the input matrix or selected region while a min pooling function takes the minimum value of the input matrix or selected region (see an example on the figure below [3]). 
+Pooling layers are usually used after convolutional layers and subsample their input. Thus, for example, a max pooling function takes the maximum value of the input matrix or selected region while a min pooling function takes the minimum value of the input matrix or selected region [3]. 
 
-![Max](images/Max.PNG)
 
 
 ***Recurrent neural network (RNN)***
