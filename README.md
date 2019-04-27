@@ -10,25 +10,11 @@
 
 ## General Introduction
 
-(States your motivation clearly: why is it important / interesting to solve this problem?)
-(Add real-world examples, if any)
-(Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+Nowadays, a large amount of data in the form of text is available. Examples include social media chats, blogs, emails, customer reviews, and articles. Researches work on the development of automatic classification techniques that could process these data with the purpose of sentiment analysis, topic labeling, structuring, intent detection, etc. in a fast and cost-effective way. Such procedures are of great interest to the government and private companies as they allow them to extract valuable insights from text data and help in decision making. 
 
-(You should begin by introducing your topic. In this section, you should define the core terminology specific to the field, introduce the problem statement, and make clear the benefits (motivate!) of resolving that problem statement. The main difference between the ABSTRACT and Introduction sections is that the abstract summarizes the entire project, including results, whereas the introduc-tion only provides the motivation of the problem and an overview of the proposed solution.)
 
-(I tell sutdents to answer the questions, one paragaph each to start if you are lost)
 
-(Problem Statement. One paragraph to describe the prob-lem that you are tackling.)
-
-(Motivation. Why is this problem interesting and relevant to the research community?)
-
-(Proposed Solution. How do we propose to tackle this problem (that has been identified in the previous para-graphs, is interesting to the community, and has yet to be tackled by other researchers)?)
-
-(Contributions. An enumeration of the contributions of the senior design project)
-
-(This project makes the following contributions:)(you must have this!!)
-•	(Contribution 1)
-•	(Contribution 2)
+(will post the text here soon)
 
 
 ***Artificial neural networks (ANN)***
@@ -67,6 +53,30 @@ A recurrent neural network is another type of artificial neural networks. They a
 ![RNN](images/RNN.PNG)
 
 On the figure above, x(t) is an input at time step t, s(t) is a hidden state at the same time step. s(t) is calculated based on the previous hidden state s(t-1) and the input at the current time step utilizing one of activation functions. o(t) is an output at step t. The same process is applied to all inputs at each time step.
+
+
+
+
+
+(States your motivation clearly: why is it important / interesting to solve this problem?)
+(Add real-world examples, if any)
+(Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+
+(You should begin by introducing your topic. In this section, you should define the core terminology specific to the field, introduce the problem statement, and make clear the benefits (motivate!) of resolving that problem statement. The main difference between the ABSTRACT and Introduction sections is that the abstract summarizes the entire project, including results, whereas the introduc-tion only provides the motivation of the problem and an overview of the proposed solution.)
+
+(I tell sutdents to answer the questions, one paragaph each to start if you are lost)
+
+(Problem Statement. One paragraph to describe the prob-lem that you are tackling.)
+
+(Motivation. Why is this problem interesting and relevant to the research community?)
+
+(Proposed Solution. How do we propose to tackle this problem (that has been identified in the previous para-graphs, is interesting to the community, and has yet to be tackled by other researchers)?)
+
+(Contributions. An enumeration of the contributions of the senior design project)
+
+(This project makes the following contributions:)(you must have this!!)
+•	(Contribution 1)
+•	(Contribution 2)
 
 
 ## The Model
