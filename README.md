@@ -10,49 +10,16 @@
 
 ## General Introduction
 
-Nowadays, a large amount of data in the form of text is available. Examples include social media chats, blogs, emails, customer reviews, and articles. Researches work on the development of automatic classification techniques that could process these data with the purpose of sentiment analysis, topic labeling, structuring, intent detection, etc. in a fast and cost-effective way. Such procedures are of great interest to the government and private companies as they allow them to extract valuable insights from text data and help in decision making. 
+Nowadays, a large amount of data in the form of text is available. Examples include social media chats, blogs, emails, customer reviews, articles, and other text data. Researches work on the development of automatic classification techniques that could process the data with the purpose of sentiment analysis, topic labeling, structuring, intent detection, etc. in a fast and cost-effective way. Such procedures are of great interest to the government and private companies as they allow them to extract valuable insights from text data and help in decision making (MonkeyLearn, n.d.). 
 
+Deep learning algorithms have shown good results in such processes as automatic text summarization, sentiment analysis, question answering, translation, the construction of distributed representations of words and phrases, and others (Alayba, Palade, England, & Iqbal, 2018; Wang, Jiang, & Luo, 2016). Among the most common deep neural network models used for text classification are convolutional neural networks (CNN) and recurrent neural networks (RNN). CNN allow to extract needful features from an input text through convolutional and pooling layers: convolution layers apply filters over input signals while pooling layers subsample obtained matrixes. RNN are characterized by loops that act as the network “memory” enabling to learn and generalize across input sequences (Nigam, 2018).
 
 
 (will post the text here soon)
 
 
-***Artificial neural networks (ANN)***
-
-An artificial neural network is a machine learning algorithm the idea of which takes its roots from the neural architecture of a human brain. The core components of a neural network are a neuron and a layer. A neuron is a node of a network that takes the weighted sum of its inputs (x1, x2, x3, … xn) and passes it through a mathematical function (the so-called activation function) to produce an output (y1). The output becomes the input of another neuron in the next layer. The most commonly used activation functions are step, sigmoid, tanh, and rectified linear unit [1]. The scheme of a node and its equation are presented on the figure below [2].  
-
-![Neuron](images/Neuron.PNG)
 
 
-Here, n is the number of inputs for a node, b is a bias which has the value 1 and is an input to all nodes. The bias allows to train a model even if all inputs are equal to 0.
-
-
-A layer is a group of neurons that process inputs through their activation functions and give outputs. An example of a neural network is presented on the figure below [2]. Every node of one layer is connected to all nodes of the next layer. The information flows from left to right.
-
-![NN](images/NN.PNG)
-
-The number of hidden layers is different in various neural networks. Hidden layers can have different activation functions depending on a research problem and the type of data being used [1].
-
-
-***Convolutional neural network (CNN)***
-
-A convolutional neural network is a variation of artificial neural networks the scheme of which is presented on the figure below [1].
-
-![CNN](images/CNN.PNG)
-
-A convolution layer takes an input signal and multiplies it with the kernel (a filter) to produce an output. There are usually many convolutional layers that apply different filters and combine the results. 
-
-Pooling layers are usually used after convolutional layers and subsample their input. Thus, for example, a max pooling function takes the maximum value of the input matrix or selected region while a min pooling function takes the minimum value of the input matrix or selected region [3]. 
-
-
-
-***Recurrent neural network (RNN)***
-
-A recurrent neural network is another type of artificial neural networks. They are called “recurrent” as they process new signals using the information from previous steps [1]. 
-
-![RNN](images/RNN.PNG)
-
-On the figure above, x(t) is an input at time step t, s(t) is a hidden state at the same time step. s(t) is calculated based on the previous hidden state s(t-1) and the input at the current time step utilizing one of activation functions. o(t) is an output at step t. The same process is applied to all inputs at each time step.
 
 
 
@@ -104,11 +71,14 @@ On the figure above, x(t) is an input at time step t, s(t) is a hidden state at 
 (final only - remove whole section for proposal Readme) (if you had 6 more months what would be the next steps in this project.) (What are a few questions you have now)
 
 ## References
-(Add the bibliographic references you intend to use)  (Code / Projects / blogs / websites / papers...)
 
-[1. Nigam, V. (2018). Understanding neural networks. From neuron to RNN, CNN, and Deep Learning.]( https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
+[MonkeyLearn. (n.d.). Text classification. A comprehensive guide to classifying text with Machine Learning.](https://monkeylearn.com/text-classification/)
 
-[2. Dertat, A. (2017). Applied Deep Learning – Part 1: artificial neural networks.](https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6)
+[Alayba, A. M., Palade, V., England, M., & Iqbal, R. (2018). A Combined CNN and LSTM Model for Arabic Sentiment Analysis. Proc. International Cross-Domain Conference for Machine Learning and Knowledge Extraction. CD-MAKE 2018, Lecture Notes in Computer Science,11015, 179-191.](https://arxiv.org/abs/1807.02911)
 
-[3. Britz, D. (2015). Understanding convolutional neural networks for NLP.]( http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
+[Wang, X., Jiang, W., & Luo, Z. (2016). Combination of Convolutional and Recurrent Neural Network for Sentiment Analysis of Short Texts. Proceedings of COLING 2016: The 26th International Conference on Computational Linguistics: Technical Papers. Osaka, Japan, 2428–2437.](https://www.aclweb.org/anthology/C16-1229) 
+
+[Nigam, V. (2018). Understanding neural networks. From neuron to RNN, CNN, and Deep Learning.](https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
+
+
 
