@@ -57,6 +57,8 @@ In order to contribute to the current research on designing more efficient and a
 
 (explicitly list your requirements of what the model will have and simulate for the proposal)
 
+![Design](images/Design.PNG)
+
 ## Fundamental Questions
 (At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
 
