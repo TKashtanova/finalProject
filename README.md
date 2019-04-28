@@ -15,12 +15,12 @@ The image was taken on the Developers website.
 
 ## General Introduction
 
-Nowadays, a large amount of data in the form of text is available. Examples include social media chats, blogs, emails, customer reviews, articles, etc. Researches work on the development of automatic text data classification techniques that could perform sentiment analysis, topic labeling, structuring, intent detection, and other tasks in a fast and cost-effective way. Such procedures are of great interest to the government and private companies as they allow them to extract valuable insights from text data and help in decision making (MonkeyLearn, n.d.). 
+Nowadays, a large amount of data in the form of text is available. Examples include social media chats, blogs, emails, customer reviews, articles, etc. Researches work on the development of automatic text data classification techniques that could perform sentiment analysis, topic labeling, structuring, intent detection, and other tasks in a fast and cost-effective way. Such procedures are of great interest to the government and private companies as they allow them to extract valuable insights from text data and help in decision making (MonkeyLearn, n.d.).
 
-Deep learning algorithms have shown good results in automatic text summarization, sentiment analysis, question answering, translation, and other  processes (Alayba, Palade, England, & Iqbal, 2018; Wang, Jiang, & Luo, 2016). Among the most common deep neural network models used for text classification are convolutional neural networks (CNN) and recurrent neural networks (RNN). CNN allow to extract needful features from an input text through convolutional and pooling layers: convolution layers apply filters over input signals while pooling layers subsample obtained matrixes. RNN are characterized by loops that act as the "network memory” enabling to learn and generalize across input data sequences (Nigam, 2018).
+Among the most widely used machine learning techniques for text classification are deep learning algorithms, particularly convolutional and recurrent neural networks (CNN and RNN). They have found their application in automatic text summarization (Yousefi-Azar, & Hamey, 2017), sentence classification (Kim, 2014), single-relation question answering (Yih, He, & Meek, 2014), translation (Auli, Galley, Quirk, & Zweig, 2013), and other tasks. The current work is focused on enhancing the accuracy of deep learning architectures on diverse datasets. Some of the approaches include joining CNN and RNN variants. Thus, for example, Alayba, Palade, England, and Iqbal (2018) were able to achieve higher accuracy of Arabic sentiment analysis by integrating CNN and Long Short-Term Memory (LSTM) networks. Wang, Jiang and Luo (2016) found that combining CNN and a gated recurrent unit (GRU) or CNN and LSTM allows to obtain better accuracy in short text sentiment analysis than when working with CNN and RNN models alone. 
 
+In order to contribute to the current research on designing more efficient and accurate deep learning architectures for text classification, we propose our joined CNN and RNN model that is different from existing models in the following ways:
 
-(will post the text here soon)
 
 
 
@@ -79,15 +79,24 @@ Deep learning algorithms have shown good results in automatic text summarization
 
 ## References
 
+[Developers. (n.d.) Build a Text Classification Program: An NLP Tutorial.](https://www.toptal.com/machine-learning/nlp-tutorial-text-classification)
+
 [MonkeyLearn. (n.d.). Text classification. A comprehensive guide to classifying text with Machine Learning.](https://monkeylearn.com/text-classification/)
 
 [Alayba, A. M., Palade, V., England, M., & Iqbal, R. (2018). A Combined CNN and LSTM Model for Arabic Sentiment Analysis. *Proc. International Cross-Domain Conference for Machine Learning and Knowledge Extraction. CD-MAKE 2018, Lecture Notes in Computer Science,11015*, 179-191.](https://arxiv.org/abs/1807.02911)
 
 [Wang, X., Jiang, W., & Luo, Z. (2016). Combination of Convolutional and Recurrent Neural Network for Sentiment Analysis of Short Texts. *Proceedings of COLING 2016: The 26th International Conference on Computational Linguistics: Technical Papers*. Osaka, Japan, 2428–2437.](https://www.aclweb.org/anthology/C16-1229) 
 
-[Nigam, V. (2018). Understanding neural networks. From neuron to RNN, CNN, and Deep Learning.](https://towardsdatascience.com/understanding-neural-networks-from-neuron-to-rnn-cnn-and-deep-learning-cd88e90e0a90)
+[Yousefi-Azar, M., & Hamey, L. (2017). Text summarization using unsupervised deep learning. Expert Systems With Applications, 68, 93–105.](https://www.sciencedirect.com/science/article/pii/S0957417416305486)
 
-[Developers. (n.d.) Build a Text Classification Program: An NLP Tutorial.](https://www.toptal.com/machine-learning/nlp-tutorial-text-classification)
+[Yih, S.W., He, X., & Meek, C. (2014). Semantic parsing for single-relation question answering. Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics: Short Papers, 2. ACL, Baltimore, 643–648.](http://acl2014.org/acl2014/P14-2/pdf/P14-2105.pdf)
+
+[Kim, Y. (2014). Convolutional neural networks for sentence classification. Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP). ACL, Doha, 1746–1751.](https://www.aclweb.org/anthology/D14-1181)
+
+[Auli, M.W., Galley, M., Quirk, C., & Zweig, G. (2013). Joint language and translation modeling with recurrent neural networks. Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing. ACL, Seattle, 044–1054.](https://www.aclweb.org/anthology/D13-1106) 
+
+
+
 
 
 
