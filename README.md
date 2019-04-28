@@ -87,16 +87,10 @@ In order to contribute to the current research on designing more efficient and a
 
 [Wang, X., Jiang, W., & Luo, Z. (2016). Combination of Convolutional and Recurrent Neural Network for Sentiment Analysis of Short Texts. *Proceedings of COLING 2016: The 26th International Conference on Computational Linguistics: Technical Papers*. Osaka, Japan, 2428–2437.](https://www.aclweb.org/anthology/C16-1229) 
 
-[Yousefi-Azar, M., & Hamey, L. (2017). Text summarization using unsupervised deep learning. Expert Systems With Applications, 68, 93–105.](https://www.sciencedirect.com/science/article/pii/S0957417416305486)
+[Yousefi-Azar, M., & Hamey, L. (2017). Text summarization using unsupervised deep learning. *Expert Systems With Applications, 68*, 93–105.](https://www.sciencedirect.com/science/article/pii/S0957417416305486)
 
-[Yih, S.W., He, X., & Meek, C. (2014). Semantic parsing for single-relation question answering. Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics: Short Papers, 2. ACL, Baltimore, 643–648.](http://acl2014.org/acl2014/P14-2/pdf/P14-2105.pdf)
+[Yih, S.W., He, X., & Meek, C. (2014). Semantic parsing for single-relation question answering. *Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics: Short Papers, 2*. ACL, Baltimore, 643–648.](http://acl2014.org/acl2014/P14-2/pdf/P14-2105.pdf)
 
-[Kim, Y. (2014). Convolutional neural networks for sentence classification. Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP). ACL, Doha, 1746–1751.](https://www.aclweb.org/anthology/D14-1181)
+[Kim, Y. (2014). Convolutional neural networks for sentence classification. *Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)*. ACL, Doha, 1746–1751.](https://www.aclweb.org/anthology/D14-1181)
 
-[Auli, M.W., Galley, M., Quirk, C., & Zweig, G. (2013). Joint language and translation modeling with recurrent neural networks. Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing. ACL, Seattle, 044–1054.](https://www.aclweb.org/anthology/D13-1106) 
-
-
-
-
-
-
+[Auli, M.W., Galley, M., Quirk, C., & Zweig, G. (2013). Joint language and translation modeling with recurrent neural networks. *Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing*. ACL, Seattle, 044–1054.](https://www.aclweb.org/anthology/D13-1106) 
