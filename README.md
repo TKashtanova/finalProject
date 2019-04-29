@@ -55,10 +55,10 @@ The dataset comes from the work “Seeing stars: Exploiting class relationships 
 
 Data Format Summary:
 
-  * rt-polarity.pos contains 5331 positive snippets
-  * rt-polarity.neg contains 5331 negative snippets
+  * rt-polarity.pos contains 5331 positive snippets;
+  * rt-polarity.neg contains 5331 negative snippets.
 
-Each line in these two files corresponds to a single snippet; all snippets are down-cased. The snippets were labeled in such a way that snippets (from Rotten Tomatoes webpages) for reviews marked with "fresh" were considered to be positive, and those for reviews marked with “rotten” were considered to be negative.
+Each line in these two files corresponds to a single snippet; all snippets are down-cased. The snippets are labeled in such a way that snippets (from Rotten Tomatoes webpages) for reviews marked with "fresh" are considered to be positive, and those for reviews marked with “rotten” are considered to be negative.
 
 
 ## Code
