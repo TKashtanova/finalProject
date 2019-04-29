@@ -50,7 +50,16 @@ In order to contribute to the current research on designing more efficient and a
 (Cellular Automata, Agent-Based Model, Discrete Event Continuous Modeling...)(Python or Anylogic) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards) (Steps in the process)
 
 ## Dataset
-(mention datasets you are going to use) 
+
+The dataset comes from the work “Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales” by Bo Pang and Lillian Lee (2005). 
+
+Data Format Summary:
+
+  * rt-polarity.pos contains 5331 positive snippets
+  * rt-polarity.neg contains 5331 negative snippets
+
+Each line in these two files corresponds to a single snippet; all snippets are down-cased. The snippets were labeled in such a way that snippets (from Rotten Tomatoes webpages) for reviews marked with "fresh" were considered to be positive, and those for reviews marked with “rotten” were considered to be negative.
+
 
 ## Code
 
@@ -79,3 +88,5 @@ In order to contribute to the current research on designing more efficient and a
 [Auli, M.W., Galley, M., Quirk, C., & Zweig, G. (2013). Joint language and translation modeling with recurrent neural networks. *Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing*. ACL, Seattle, 044–1054.](https://www.aclweb.org/anthology/D13-1106) 
 
 [Giannakopoulos, A., Coriou, M., Hossmann, A., Baeriswyl, M., & Musat, C. (2019). Resilient Combination of Complementary CNN and RNN Features for Text Classification through Attention and Ensembling.](https://arxiv.org/pdf/1903.12157.pdf)
+
+[Pang, B., & Lee, L. (2005). Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales, Proceedings of the ACL, 115-124.](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
