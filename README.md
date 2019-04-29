@@ -91,4 +91,4 @@ Each line in these two files corresponds to a single snippet; all snippets are d
 
 [Giannakopoulos, A., Coriou, M., Hossmann, A., Baeriswyl, M., & Musat, C. (2019). Resilient Combination of Complementary CNN and RNN Features for Text Classification through Attention and Ensembling.](https://arxiv.org/pdf/1903.12157.pdf)
 
-[Pang, B., & Lee, L. (2005). Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales, Proceedings of the ACL, 115-124.](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
+[Pang, B., & Lee, L. (2005). Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales. *Proceedings of the ACL*, 115-124.](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
