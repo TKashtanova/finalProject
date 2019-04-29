@@ -17,7 +17,11 @@ The image was taken on the Developers website.
 
 Nowadays, a large amount of data in the form of text is available. Examples include social media chats, blogs, emails, customer reviews, articles, etc. Researches work on the development of automatic text data classification techniques that could perform sentiment analysis, topic labeling, structuring, intent detection, and other tasks in a fast and cost-effective way. Such procedures are of great interest to the government and private companies as they allow them to extract valuable insights from text data and help in decision making *(MonkeyLearn, n.d.)*.
 
-Among the most widely used machine learning techniques for text classification are deep learning algorithms, particularly convolutional and recurrent neural networks (CNN and RNN). They have found their application in automatic text summarization *(Yousefi-Azar, & Hamey, 2017)*, sentence classification *(Kim, 2014)*, single-relation question answering *(Yih, He, & Meek, 2014)*, translation *(Auli, Galley, Quirk, & Zweig, 2013)*, and other tasks. The current work is focused on enhancing the accuracy of deep learning architectures on diverse datasets. Some of the approaches include joining CNN and RNN variants. Thus, for example, *Alayba, Palade, England, and Iqbal (2018)* were able to achieve higher accuracy of Arabic sentiment analysis by integrating CNN and Long Short-Term Memory (LSTM) networks. *Wang, Jiang and Luo (2016)* found that combining CNN and a gated recurrent unit (GRU) or CNN and LSTM allows to obtain better accuracy in short text sentiment analysis than when working with CNN and RNN models alone. 
+Among the most widely used machine learning techniques for text classification are deep learning algorithms, particularly convolutional and recurrent neural networks (CNN and RNN). They have found their application in automatic text summarization *(Yousefi-Azar, & Hamey, 2017)*, sentence classification *(Kim, 2014)*, single-relation question answering *(Yih, He, & Meek, 2014)*, translation *(Auli, Galley, Quirk, & Zweig, 2013)*, and other tasks. The current work is focused on enhancing the accuracy of deep learning architectures on diverse datasets. Some of the approaches include joining CNN and RNN variants. Thus, for example, *Alayba, Palade, England, and Iqbal (2018)* designed a model consisted of the following parts: input data (word embeddings and character / character N-gram/ word-level representation), convolutional layer with feature maps, max pooling layer, Long Short-Term Memory (LSTM) layer, fully connected layer, and output. The design allowed the researchers to achieve higher accuracy (2.4% and 0.7%) of Arabic sentiment analysis on two datasets they tested.
+
+*Wang, Jiang and Luo (2016)* studied the combination of CNN and a gated recurrent unit (GRU) and the combination of CNN and LSTM for short text sentiment analysis. Their model included the following parts: word embeddings and sentence-level representation, convolutional and max-pooling layers, concatenation layer, RNN layer, and fully connected layer with softmax output. The researches explored different model variations using pre-trained vectors from word2vec, randomly initialized vectors, max pooling layers and average pooling layers. Models with pre-trained vectors from word2vec and max pooling performed best among all the models and allowed to increase the classification accuracy by 0.7% (using GRU) and 0.1% (using LSTM) on some datasets.
+
+*Giannakopoulos, Coriou, Hossmann, Baeriswyl, and Musat (2019)* created a model that combined Ensembles, CNN, GRU, and Attention. The final prediction was obtained by averaging the predictions from all the learners. The researches tested the architecture on argumentation mining, topic classification, and textual churn. The model led to a performance increase on all the text classification tasks. 
 
 In order to contribute to the current research on designing more efficient and accurate deep learning architectures for text classification, we propose our joined CNN and RNN model that is different from existing models in the following ways:
 
@@ -26,29 +30,6 @@ In order to contribute to the current research on designing more efficient and a
 
 
 
-
-
-
-
-(States your motivation clearly: why is it important / interesting to solve this problem?)
-(Add real-world examples, if any)
-(Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
-
-(You should begin by introducing your topic. In this section, you should define the core terminology specific to the field, introduce the problem statement, and make clear the benefits (motivate!) of resolving that problem statement. The main difference between the ABSTRACT and Introduction sections is that the abstract summarizes the entire project, including results, whereas the introduc-tion only provides the motivation of the problem and an overview of the proposed solution.)
-
-(I tell sutdents to answer the questions, one paragaph each to start if you are lost)
-
-(Problem Statement. One paragraph to describe the prob-lem that you are tackling.)
-
-(Motivation. Why is this problem interesting and relevant to the research community?)
-
-(Proposed Solution. How do we propose to tackle this problem (that has been identified in the previous para-graphs, is interesting to the community, and has yet to be tackled by other researchers)?)
-
-(Contributions. An enumeration of the contributions of the senior design project)
-
-(This project makes the following contributions:)(you must have this!!)
-•	(Contribution 1)
-•	(Contribution 2)
 
 
 ## The Model
@@ -96,3 +77,5 @@ In order to contribute to the current research on designing more efficient and a
 [Kim, Y. (2014). Convolutional neural networks for sentence classification. *Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)*. ACL, Doha, 1746–1751.](https://www.aclweb.org/anthology/D14-1181)
 
 [Auli, M.W., Galley, M., Quirk, C., & Zweig, G. (2013). Joint language and translation modeling with recurrent neural networks. *Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing*. ACL, Seattle, 044–1054.](https://www.aclweb.org/anthology/D13-1106) 
+
+[Giannakopoulos, A., Coriou, M., Hossmann, A., Baeriswyl, M., & Musat, C. (2019). Resilient Combination of Complementary CNN and RNN Features for Text Classification through Attention and Ensembling.](https://arxiv.org/pdf/1903.12157.pdf)
