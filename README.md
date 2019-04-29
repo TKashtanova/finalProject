@@ -49,6 +49,8 @@ In order to contribute to the current research on designing more efficient and a
 ## Research Methods
 (Cellular Automata, Agent-Based Model, Discrete Event Continuous Modeling...)(Python or Anylogic) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards) (Steps in the process)
 
+Deep learning algorithms, Python.
+
 ## Dataset
 
 The dataset comes from the work “Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales” by Bo Pang and Lillian Lee (2005). 
