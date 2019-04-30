@@ -77,8 +77,6 @@ How does the accuracy differ from single models such as CNN and RNN alone?
 
 What parameters contribute to performance the most?
 
-What are the most difficult texts to classify and why?
-
 
 ## Research Methods
 
