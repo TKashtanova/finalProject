@@ -40,16 +40,17 @@ Traditionally, this problem was tackled by support vector machine, decision tree
 
 Technical details of our model:
 
-CNN + RNN
-Embedding layer - 128
-Filter sizes - 3,4,5
-number of filters - 1000
-Dropout - 0.5 
-batch size - 100
-number of epochs - 20
-Sentense length - 100
-Hidden layer - 128
-Cell Type - vanilla
+***CNN + RNN***
+
+* Embedding layer - 128
+* Filter sizes - 3,4,5
+* Number of filters - 1000
+* Dropout - 0.5 
+* Batch size - 100
+* Number of epochs - 20
+* Sentense length - 100
+* Hidden layer - 128
+* Cell Type - vanilla
 
 
 RNN
