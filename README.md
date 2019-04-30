@@ -118,7 +118,7 @@ Sample training losses:
 
 ## Discussion
 
-The implementation for CNN + RNN is not trivial. There were a lot of errors to be resolved to make this work. To put the two models together, some constriants have to be made such as the consistancy of the vector size, filter numbers and hidden layer dimensions. Furthermore, the training time for CNN + RNN is much longer, so that we only kept one convolutional layer and one pooling layer. Batch size plays a role in affecting the accuracy: when batch size is low, the accuracy is decreased. This may be caused by more difficulties of finding the right gradient directions. 
+The implementation for CNN + RNN is not trivial. There were a lot of errors to be resolved to make this work. To put the two models together, some constriants had to be made such as the consistancy of the vector size, filter numbers and hidden layer dimensions. Furthermore, the training time for CNN + RNN is much longer, so that we only kept one convolutional layer and one pooling layer. Batch size plays a role in affecting the accuracy: when batch size is low, the accuracy is decreased. This may be caused by more difficulties of finding the right gradient directions. 
 
 
 
