@@ -53,14 +53,15 @@ Technical details of our model:
 * Cell Type - vanilla
 
 
-RNN
-Sentense length - 100
-Dropout - 0.5 
-batch size - 100
-number of epochs - 20
-Cell Type - vanilla
-Hidden layer - 128
-Dropout - 0.5 
+***RNN***
+
+* Sentense length - 100
+* Dropout - 0.5 
+* Batch size - 100
+* Number of epochs - 20
+* Cell Type - vanilla
+* Hidden layer - 128
+* Dropout - 0.5 
 
 CNN
 Embedding layer - 128
