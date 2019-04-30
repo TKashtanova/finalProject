@@ -38,47 +38,50 @@ From the literature review we can see that Recurrent Neural Network and Convolut
 
 Traditionally, this problem was tackled by support vector machine, decision tree and positive pointwise mutual information embeddings. However, in recent years, there were works that combined RNN and CNN in different ways to utilize their potencial to model spacial and sequencial dynamics in the same time. The way of combinging the two types of neural networks varies from problem to problem. In the context of textual content classification problem, we propose to concatenate the fully-connected layer of CNN to the hidden layers of RNN and train them together to seek for better performances. Our model will take labeled text as input, train and classify on the test data as the output.
 
-Technical details of our model:
+***Technical details of our model***
 
-CNN + RNN
-Embedding layer - 128
-Filter sizes - 3,4,5
-number of filters - 1000
-Dropout - 0.5 
-batch size - 100
-number of epochs - 20
-Sentense length - 100
-Hidden layer - 128
-Cell Type - vanilla
+***CNN + RNN***
+
+* Embedding layer - 128
+* Filter sizes - 3,4,5
+* Number of filters - 1000
+* Dropout - 0.5 
+* Batch size - 100
+* Number of epochs - 20
+* Sentense length - 100
+* Hidden layer - 128
+* Cell Type - vanilla
 
 
-RNN
-Sentense length - 100
-Dropout - 0.5 
-batch size - 100
-number of epochs - 20
-Cell Type - vanilla
-Hidden layer - 128
-Dropout - 0.5 
+***RNN***
 
-CNN
-Embedding layer - 128
-Filter sizes - 3,4,5
-number of filters - 1000
-Dropout - 0.5 
-batch size - 100
-number of epochs - 20
+* Sentense length - 100
+* Dropout - 0.5 
+* Batch size - 100
+* Number of epochs - 20
+* Cell Type - vanilla
+* Hidden layer - 128
+* Dropout - 0.5 
+
+***CNN***
+
+* Embedding layer - 128
+* Filter sizes - 3,4,5
+* Number of filters - 1000
+* Dropout - 0.5 
+* Batch size - 100
+* Number of epochs - 20
 
 ![Design](images/Design.PNG)
 
 ## Fundamental Questions
-Does training CNN and RNN together by connecting fully-connected layer and hidden states increase accuracy in text classification task?
+Does training CNN and RNN together by connecting fully-connected layer and hidden states increase accuracy in text classification tasks?
 
 How does the accuracy differ from single models such as CNN and RNN alone?
 
 What parameters contribute to performance the most?
 
-What are the most difficult text to classify and why?
+What are the most difficult texts to classify and why?
 
 
 ## Research Methods
@@ -115,7 +118,7 @@ Sample training losses:
 
 ## Discussion
 
-The implementation for CNN + RNN is not trivial. They were a lot of errors to be resolved to make this work. And to put the two models together, some constriants have to be made such as the consistancy of the vector size, filter numbers and hidden layer dimensions. And the training time for CNN + RNN is much longer, so that I only keep one convolutional layer and one pooling layer. Batch size plays a role in affecting the accuracy, when batch size is lower the accuracy is decreased. This may be caused by more difficulties of finding the right gradient directions. 
+The implementation for CNN + RNN is not trivial. There were a lot of errors to be resolved to make this work. To put the two models together, some constriants had to be made such as the consistancy of the vector size, filter numbers and hidden layer dimensions. Furthermore, the training time for CNN + RNN is much longer, so that we only kept one convolutional layer and one pooling layer. Batch size plays a role in affecting the accuracy: when batch size is low, the accuracy is decreased. This may be caused by more difficulties of finding the right gradient directions. 
 
 The results show that the accuracies of CNN and RNN are similar and the accuracy of CNN + RNN is slightly worse, despite more time for training. We conclude that in this text classification problem, the combination of CNN and RNN by concatenating their fully-connected layer and hidden layer does not outperform single CNN and RNN. The training time of CNN + RNN is the longest, CNN is the second longest and RNN is the fastest. The performance is contradict to our expectations, at least in this dataset.  
 
