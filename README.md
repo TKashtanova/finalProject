@@ -1,7 +1,7 @@
 # IDS6145(SimTech 2019) - Research Plan
 
 
-> * Group Name: 123
+> * Group Name: YT
 > * Group participants names: Yifan Huang and Tatiana Kashtanova
 > * Project Title: Combination of CNN and RNN features for text classification
 
