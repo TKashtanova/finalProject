@@ -38,8 +38,6 @@ In order to contribute to the current research on designing more efficient and a
 
 ## The Model
 
-***Technical details of our model***
-
 ***CNN + RNN***
 
 * Embedding layer - 128
