@@ -103,11 +103,11 @@ Code is uploaded in the code folder
 
 ## Results
 
-Accuracy for CNN + RNN is:
+Accuracy for CNN + RNN is: 0.726548
 
-Accuracy for CNN only is:
+Accuracy for CNN only is: 0.732461
 
-Accuracy for RNN only is:
+Accuracy for RNN only is: 0.734137
 
 Sample training losses:
 
@@ -117,11 +117,13 @@ Sample training losses:
 
 The implementation for CNN + RNN is not trivial. They were a lot of errors to be resolved to make this work. And to put the two models together, some constriants have to be made such as the consistancy of the vector size, filter numbers and hidden layer dimensions. And the training time for CNN + RNN is much longer, so that I only keep one convolutional layer and one pooling layer. Batch size plays a role in affecting the accuracy, when batch size is lower the accuracy is decreased. This may be caused by more difficulties of finding the right gradient directions. 
 
+The results show that the accuracies of CNN and RNN are similar and the accuracy of CNN + RNN is slightly worse, despite more time for training. We conclude that in this text classification problem, the combination of CNN and RNN by concatenating their fully-connected layer and hidden layer does not outperform single CNN and RNN. The training time of CNN + RNN is the longest, CNN is the second longest and RNN is the fastest. The performance is contradict to our expectations, at least in this dataset.  
 
-
-(final only - remove whole section for proposal Readme) (What would you have done differently) (What are the contributions summerize)(what is the big take away)(what did you learn)
 
 ## Future Work
+
+For future work, we can experiment different designs of combination of CNN and RNN and apply them to different areas and datasets. More classifiers such as random forest and SVM could be implemented for comprehensive comparisons. This dataset may needs a more sophisticated model to learn the features that haven't been well learnt by current work. More evaluation metrics could be added such as AUC curve, precision, recall and F-score. 
+
 (final only - remove whole section for proposal Readme) (if you had 6 more months what would be the next steps in this project.) (What are a few questions you have now)
 
 ## References
