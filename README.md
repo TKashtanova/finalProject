@@ -27,7 +27,7 @@ Among the most widely used machine learning techniques for text classification a
 
 *Giannakopoulos, Coriou, Hossmann, Baeriswyl, and Musat (2019)* created a model that combined Ensembles, CNN, GRU, and Attention. The final prediction was obtained by averaging the predictions from all the learners. The researches tested the architecture on argumentation mining, topic classification, and textual churn. The model led to a performance increase on all the text classification tasks. 
 
-In order to contribute to the current research on designing more efficient and accurate deep learning architectures for text classification, we propose our joined CNN and RNN model that is different from existing models in the following ways:
+Previous works have applied multiple convolutional layers in a single text instance, built multiple models to vote for final predictions, changing gate units for varied results. However in the best of our knowledge, no work has been done in combining the fully-connected layer from CNN and hidden layer from RNN to train them together as a more sophisticated model.
 
 
 
