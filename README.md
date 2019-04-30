@@ -34,22 +34,56 @@ In order to contribute to the current research on designing more efficient and a
 
 ## The Model
 
-(Provide structural and behavior diagrams of the system you wish to study.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?) (Use the model to tell us what is going on.)
+From the literature review we can see that Recurrent Neural Network and Convolutional Neural Network both provide state-of-the-art performance in fields ranging from text classification, object recognition, speech processing and etc. Textual data consists of rich semantic information that is hard to model using traditional machine learning methods. The non-linear dynamics need to be learnt by more sophisticated models such as neural networks. CNN is known to be good at capturing spacial information such as pixel locations and correlations in images, while RNN is good at modeling sequencial information in data such as stock price movement and weather forecasting. 
 
-(explicitly list your requirements of what the model will have and simulate for the proposal)
+Traditionally, this problem was tackled by support vector machine, decision tree and positive pointwise mutual information embeddings. However, in recent years, there were works that combined RNN and CNN in different ways to utilize their potencial to model spacial and sequencial dynamics in the same time. The way of combinging the two types of neural networks varies from problem to problem. In the context of textual content classification problem, we propose to concatenate the fully-connected layer of CNN to the hidden layers of RNN and train them together to seek for better performances. Our model will take labeled text as input, train and classify on the test data as the output.
+
+Technical details of our model:
+
+CNN + RNN
+Embedding layer - 128
+Filter sizes - 3,4,5
+number of filters - 1000
+Dropout - 0.5 
+batch size - 100
+number of epochs - 20
+Sentense length - 100
+Hidden layer - 128
+Cell Type - vanilla
+
+
+RNN
+Sentense length - 100
+Dropout - 0.5 
+batch size - 100
+number of epochs - 20
+Cell Type - vanilla
+Hidden layer - 128
+Dropout - 0.5 
+
+CNN
+Embedding layer - 128
+Filter sizes - 3,4,5
+number of filters - 1000
+Dropout - 0.5 
+batch size - 100
+number of epochs - 20
 
 ![Design](images/Design.PNG)
 
 ## Fundamental Questions
-(At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
+Does training CNN and RNN together by connecting fully-connected layer and hidden states increase accuracy in text classification task?
 
-## Expected Results
-(What are the answers to the above questions that you expect to find before starting your research?) (This changes from Expected (Proposal) to just Results (final report)) (you should verbally define them) (sketch a few graphs of what you are roughly going for - not the data but histogram of this, line graph of that, screenshot of an agent - use paper and pencil sketches)
+How does the accuracy differ from single models such as CNN and RNN alone?
+
+What parameters contribute to performance the most?
+
+What are the most difficult text to classify and why?
+
 
 ## Research Methods
-(Cellular Automata, Agent-Based Model, Discrete Event Continuous Modeling...)(Python or Anylogic) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards) (Steps in the process)
 
-Deep learning algorithms, Python.
+Experiments, Machine Learning algorithms, Deep learning algorithms, Python, Tensorflow.
 
 ## Dataset
 
@@ -65,7 +99,21 @@ Each line in these two files corresponds to a single snippet; all snippets are d
 
 ## Code
 
+Code is uploaded in the code folder
+
+## Results
+
+Accuracy for CNN + RNN is:
+Accuracy for CNN only is:
+Accuracy for RNN only is:
+
+Sample training losses:
+![Design](images/sample_loss.png)
+
 ## Discussion
+
+The implementation for CNN + RNN is not trivial. They were a lot of errors to be resolved to make this work. And to put the two models together, some constriants have to be made such as the consistancy of the vector size, filter numbers and hidden layer dimensions. And the training time for CNN + RNN is much longer, so that I only keep one convolutional layer and one pooling layer. Batch size plays a role in affecting the accuracy, when batch size is lower the accuracy is decreased. This may be caused by more difficulties of finding the right gradient directions. 
+
 (final only - remove whole section for proposal Readme) (What would you have done differently) (What are the contributions summerize)(what is the big take away)(what did you learn)
 
 ## Future Work

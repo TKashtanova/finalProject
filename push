@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git add .
+git commit -m "code change"
+git push https://github.com/TKashtanova/finalProjectTemplate.git master
+
