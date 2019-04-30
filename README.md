@@ -78,7 +78,7 @@ How does the accuracy differ from single models such as CNN and RNN alone?
 
 What parameters contribute to performance the most?
 
-What are the most difficult texts to classify and why?
+What are the most difficult text to classify and why?
 
 
 ## Research Methods
@@ -110,6 +110,7 @@ Accuracy for CNN only is:
 Accuracy for RNN only is:
 
 Sample training losses:
+
 ![Design](images/sample_loss.png)
 
 ## Discussion
