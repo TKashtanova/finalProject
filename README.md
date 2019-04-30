@@ -38,7 +38,7 @@ From the literature review we can see that Recurrent Neural Network and Convolut
 
 Traditionally, this problem was tackled by support vector machine, decision tree and positive pointwise mutual information embeddings. However, in recent years, there were works that combined RNN and CNN in different ways to utilize their potencial to model spacial and sequencial dynamics in the same time. The way of combinging the two types of neural networks varies from problem to problem. In the context of textual content classification problem, we propose to concatenate the fully-connected layer of CNN to the hidden layers of RNN and train them together to seek for better performances. Our model will take labeled text as input, train and classify on the test data as the output.
 
-Technical details of our model:
+***Technical details of our model***
 
 ***CNN + RNN***
 
@@ -63,13 +63,14 @@ Technical details of our model:
 * Hidden layer - 128
 * Dropout - 0.5 
 
-CNN
-Embedding layer - 128
-Filter sizes - 3,4,5
-number of filters - 1000
-Dropout - 0.5 
-batch size - 100
-number of epochs - 20
+***CNN***
+
+* Embedding layer - 128
+* Filter sizes - 3,4,5
+* Number of filters - 1000
+* Dropout - 0.5 
+* Batch size - 100
+* Number of epochs - 20
 
 ![Design](images/Design.PNG)
 
