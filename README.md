@@ -75,13 +75,13 @@ Traditionally, this problem was tackled by support vector machine, decision tree
 ![Design](images/Design.PNG)
 
 ## Fundamental Questions
-Does training CNN and RNN together by connecting fully-connected layer and hidden states increase accuracy in text classification task?
+Does training CNN and RNN together by connecting fully-connected layer and hidden states increase accuracy in text classification tasks?
 
 How does the accuracy differ from single models such as CNN and RNN alone?
 
 What parameters contribute to performance the most?
 
-What are the most difficult text to classify and why?
+What are the most difficult texts to classify and why?
 
 
 ## Research Methods
