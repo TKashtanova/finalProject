@@ -125,9 +125,8 @@ The results show that the accuracies of CNN and RNN are similar and the accuracy
 
 ## Future Work
 
-For future work, we can experiment different designs of combination of CNN and RNN and apply them to different areas and datasets. More classifiers such as random forest and SVM could be implemented for comprehensive comparisons. This dataset may needs a more sophisticated model to learn the features that haven't been well learnt by current work. More evaluation metrics could be added such as AUC curve, precision, recall and F-score. 
+For future work, we can experiment different designs of combinations of CNN and RNN and apply them to different areas and datasets (due to time constraint the model has to be designed simple to enable fast training and testing). More classifiers such as random forest and SVM could be implemented for comprehensive comparisons. This dataset may needs a more sophisticated model to learn the features that haven't been well learnt by the current work. More evaluation metrics could be added such as AUC curve, precision, recall and F-score. 
 
-(final only - remove whole section for proposal Readme) (if you had 6 more months what would be the next steps in this project.) (What are a few questions you have now)
 
 ## References
 
