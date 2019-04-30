@@ -104,7 +104,9 @@ Code is uploaded in the code folder
 ## Results
 
 Accuracy for CNN + RNN is:
+
 Accuracy for CNN only is:
+
 Accuracy for RNN only is:
 
 Sample training losses:
@@ -113,6 +115,8 @@ Sample training losses:
 ## Discussion
 
 The implementation for CNN + RNN is not trivial. They were a lot of errors to be resolved to make this work. And to put the two models together, some constriants have to be made such as the consistancy of the vector size, filter numbers and hidden layer dimensions. And the training time for CNN + RNN is much longer, so that I only keep one convolutional layer and one pooling layer. Batch size plays a role in affecting the accuracy, when batch size is lower the accuracy is decreased. This may be caused by more difficulties of finding the right gradient directions. 
+
+
 
 (final only - remove whole section for proposal Readme) (What would you have done differently) (What are the contributions summerize)(what is the big take away)(what did you learn)
 
